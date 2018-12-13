@@ -1,0 +1,433 @@
+body
+
+{
+	font-family:  'Roboto', sans-serif;
+	background-color: #fef3dc; 
+
+}
+
+.content-width
+
+{
+	max-width: 960px;
+	margin: 0 auto;	
+}
+
+#top-section
+
+{
+	background-color: #fef3dc;
+}
+
+hr
+
+{
+	
+	border: medium black solid;
+	
+	
+}
+#nav-bar .hr-bottom
+{
+	
+	margin-bottom: 20px
+}
+
+#nav-bar ul
+{
+	display: flex;
+	justify-content: space-around;
+}
+
+#nav-bar a { 
+    background-color: #fef3dc;
+	color: #ce0325;
+	padding: 5px 20px;
+	border-radius: 10px;
+	text-decoration: none;
+}
+
+#nav-bar a:hover { 
+    background-color: #ce0325;
+	color: #fef3dc;
+	padding: 5px 20px;
+	border-radius: 10px;
+	text-decoration: none;
+}
+
+#top-section a
+
+{
+	
+	text-decoration: none;
+	color: black;
+	background-color: #fef3dc;
+	padding: 5px 20px;
+	border-radius: 10px;
+}
+
+
+
+#top-section img
+{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	height: 150px;
+	
+}
+
+h1
+
+{
+	text-align: center;
+	font-size: 35px;
+	font-weight: 700;
+}
+
+h2
+
+{
+	text-align: center;
+	font-size: 25px;
+	padding-top: 20px;
+	font-weight: 600;
+
+}
+
+h3 
+{
+	text-align: center;
+	font-size: 18px
+}
+
+
+h4 
+{
+	text-align: center;
+	font-size: 16px
+}
+
+
+
+
+#herobox
+
+{
+	
+	background-image: url(../images/herobox.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	
+}
+
+#herobox a
+
+{
+	text-align: center;
+	background-color: #ce0325;
+	border-radius: 5px;
+	padding: 10px 40px;
+	color: #fef3dc;
+	text-decoration: none;
+}
+
+#herobox h2
+
+{
+	padding-top: 300px;
+	padding-bottom: 50px;
+}
+
+
+#about
+
+{
+	
+	background-image: url(../images/the-big-lebowski-bowling-alley.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	
+}
+
+#about
+
+{
+	
+	background-color: #ce0325;
+	color: #fef3dc;
+}
+
+
+.js.div, h2, h3, p
+
+{
+	text-align: center;
+	color: #ce0325;
+	
+}
+
+#package p
+
+{
+	font-size: 18px;
+}
+
+
+
+#package
+
+{
+	background-color: #fef3dc;
+	padding-bottom: 50px;
+		
+}
+
+#package h2
+
+{
+	
+	color: black;
+}
+
+#package h3
+
+{
+	color: black;
+}
+
+#package p 
+
+{
+	padding-bottom: 0px;
+	color: black;
+	border: thin grey .5
+}
+
+#package hr
+
+{
+	width: 70%;
+	border: 1px grey solid;
+
+}
+
+
+#package a
+
+{
+	text-align: center;
+	background-color: #ce0325;
+	border-radius: 5px;
+	padding: 10px 40px;
+	color: #fef3dc;
+	text-decoration: none;
+}
+
+.package-button
+
+{
+	margin-top: 0px;
+	margin-bottom: 100px;
+}
+
+#slides div
+
+{
+	padding-top: 50px;
+}
+
+#about h2 
+
+{
+	color: #fef3dc;
+}
+
+#about p
+
+{
+	color: #fef3dc;
+	font-size: 14px;
+	padding: 30px 15px 100px 15px;
+	text-align: justify;
+		
+}
+
+
+#slideshow { 
+    margin: 50px auto 5px;; 
+    position: relative; 
+    width: 100%; 
+    height: 140px; 
+    padding: 10px; 
+  
+}
+
+#slideshow > div { 
+    position: absolute; 
+    top: 10px; 
+    left: 10px; 
+    right: 10px; 
+    bottom: 10px; 
+}
+
+#spotify
+{
+	background-color: black 
+}
+
+#spotify iframe
+
+{
+	width: 90%;
+	margin: 0 5%;
+	height: 500px;
+}
+
+#menu h2
+
+{
+	color: black;
+	padding-bottom: 20px;
+}
+.flex
+
+{
+	display: flex;
+}
+
+.flex div
+
+{
+	justify-content: space-between;
+	max-width: 33.3%;
+	text-align: center;
+}
+
+.flex div h3
+
+{
+	color: black;
+	padding-bottom: 15px;
+}
+
+
+.flex div h4
+
+{
+	padding-top: 20px;
+	margin-bottom: auto;
+}
+
+.flex p
+
+{
+	color: black;
+	font-size: 14px;
+	margin-bottom: auto;
+}
+
+#menu h3,h4
+
+{
+	text-decoration: underline;
+	padding-bottom: 3px;
+}
+
+.cocktails
+
+{
+	border: dashed 2px grey; 
+	padding: 10px;	
+	margin-bottom: 25px;
+	margin-left: 1px;
+	margin-right: 1px;
+}
+
+.pizza
+
+{
+	border: dashed 2px grey; 
+	padding: 10px;	
+	margin-bottom: 25px;
+	margin-left: 1px;
+	margin-right: 1px;
+}
+
+.snacks
+
+{
+	border: dashed 2px grey; 
+	padding: 10px;	
+	margin-bottom: 25px;
+	margin-left: 1px;
+	margin-right: 1px;	
+}
+
+
+#footer
+{
+	background-color: #45494d;
+	display: flex;
+	justify-content: space-around;
+}
+
+#footer i
+{
+		color: #fef3dc;
+
+	
+	
+}
+
+#footer ul
+
+{
+	display: flex;
+	
+}
+
+#footer li
+
+{
+	padding: 50px 20px 10px 20px;
+	color: #fef3dc;
+}
+
+#footer a
+
+{
+	
+	text-decoration: none;
+	color: #fef3dc;
+}
+
+#footer a:hover 
+{ 
+    color: #ce0325;
+
+}
+
+#footer i:hover 
+{ 
+    color: #ce0325;
+
+}
+
+
+.lebowski p
+
+{
+	background-color: #45494d;
+	color: #fef3dc;
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
+
+@media screen and (max-width: 760px) {
+  #menu {
+    display: none;
+  }
+}
